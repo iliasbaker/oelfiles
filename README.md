@@ -2,6 +2,11 @@
 
 ## essential
 
+### nextcloud
+privacy-oriented and free cloud server
+
+[download](https://nextcloud.com/)
+
 ## productivity
 
 ### anki
@@ -16,6 +21,9 @@ card themes:
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 this mode of installation is preferable as it also gives you a desktop icon
+
+### atom
+[download](https://atom.io/)
 
 ## entertainment
 
