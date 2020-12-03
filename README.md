@@ -5,6 +5,9 @@
 ## productivity
 
 ### anki
+card themes:
+  - basic: [css](https://pastebin.com/96AX3vZx), [front and back](https://pastebin.com/SbaCurP1)
+  - cloze: [css](https://pastebin.com/uBuHcUza), [front and back](https://pastebin.com/h1vNa37y)
 
 ### joplin
 [page](https://joplinapp.org/)
