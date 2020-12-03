@@ -4,6 +4,16 @@
 
 ## productivity
 
+### anki
+
+### joplin
+[page](https://joplinapp.org/)
+
+```sh
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+```
+this mode of installation is preferable as it also gives you a desktop icon
+
 ## entertainment
 
 ### spicetify-cli
