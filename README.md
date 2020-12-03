@@ -2,6 +2,9 @@
 
 ## essential
 
+### bitwarden
+[download](https://bitwarden.com/download/)
+
 ### nextcloud
 privacy-oriented and free cloud server
 
