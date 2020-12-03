@@ -68,5 +68,5 @@ export PATH="$SPICETIFY_INSTALL:$PATH"
 
 get list of commands
 ```sh
-spicetify -h config
+spicetify -h
 ```
