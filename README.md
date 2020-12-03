@@ -70,3 +70,8 @@ get list of commands
 ```sh
 spicetify -h
 ```
+
+if that doesn't work, try:
+```sh
+spicetify-cli/spicetify -h
+```
