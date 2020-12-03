@@ -30,8 +30,10 @@ optional:
 * [ankimote](https://ankiweb.net/shared/info/149004221) (149004221)
 * [anki zoom](https://ankiweb.net/shared/info/538879081) (538879081)
 
-### joplin
-[page](https://joplinapp.org/)
+### boost note
+[download](https://boostnote.io/)
+
+you can save it in your Nextcloud folder and it will sync over
 
 ```sh
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
