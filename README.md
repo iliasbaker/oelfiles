@@ -26,6 +26,10 @@ privacy-oriented and free cloud server
 * [anki simulator](https://ankiweb.net/shared/info/817108664) (817108664)
 * [progress graphs and stats for learned and matured cards](https://ankiweb.net/shared/info/266436365) (266436365)
 * [rememorize](https://ankiweb.net/shared/info/323586997) (323586997)
+
+download all:
+* 923360400 594329229 1988760596 817108664 266436365 323586997
+
 optional:
 * [ankimote](https://ankiweb.net/shared/info/149004221) (149004221)
 * [anki zoom](https://ankiweb.net/shared/info/538879081) (538879081)
