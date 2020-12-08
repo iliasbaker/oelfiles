@@ -1,9 +1,52 @@
 # oelfiles
 
-### before you do anything:
+## before you do anything:
 ```sh
 sudo apt-get update
 ```
+
+## system files:
+
+### custom keyboard layouts
+
+```sh
+cd /usr/share/X11/xkb/symbols
+sudo cp -r gr grBACKUP
+sudo cp -r ru ruBACKUP
+```
+
+#### modifying keyboards
+```sh
+sudo gedit /usr/share/X11/xkb/symbols/ru
+```
+replace the entire file with [this](https://hastebin.com/zaromemexi.properties)
+```sh
+sudo gedit /usr/share/X11/xkb/symbols/gr
+```
+replace the entire file with [this](https://hastebin.com/wezifufexa.properties)
+
+#### modifying compose file:
+```sh
+sudo gedit ~/.XCompose
+```
+add [this](https://hastebin.com/averadetub.xml)
+
+then restart your computer (i dont think there is any other way to update the .XCompose file)
+
+### customising grub font size:
+```sh
+sudo grub-mkfont --size=36 -o /boot/grub/DejaVuSansMono.pf2 /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+sudo gedit /etc/default/grub
+```
+insert the following line in `etc/default/grub`:
+```
+GRUB_FONT=/boot/grub/DejaVuSansMono.pf2
+```
+rebuild grub configuration file:
+```sh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+reboot and the font should be readable!
 
 ### bitwarden:
 ```sh
@@ -39,11 +82,15 @@ sudo apt-get install nextcloud-desktop
 
 ### atom:
 * download it [here](https://atom.io/)
+#### no ugly vertical line:
+* Preferences -> Packages -> wrap-guide : click on disable
+#### install packages:
 
 ### codelite:
 ```sh
 sudo apt-get install g++ codelite cmake
 ```
+* change keyboard shortcut for "Build and Run" to `CTRL-J`
 
 ### spotify + spicetify
 ```sh
@@ -55,6 +102,7 @@ sudo chmod a+wr /usr/share/spotify
 sudo chmod a+wr /usr/share/spotify/Apps -R
 curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
 ```
+
 #### make commands work:
 * add an alias:
 ```sh
@@ -64,6 +112,7 @@ add the following:
 ```
 alias spicetify='spicetify-cli/spicetify'
 ```
+
 #### add themes
 download from [here](https://github.com/morpheusthewhite/spicetify-themes)
 
@@ -72,28 +121,7 @@ extract all folders to `spicetify-cli/Themes`
 my themes:
 * [here](/dark-teal)
 
-### custom keyboard layouts
-
+### more stuff to install:
 ```sh
-cd /usr/share/X11/xkb/symbols
-sudo cp -r gr grBACKUP
-sudo cp -r ru ruBACKUP
+sudo apt-get install gimp deluge
 ```
-
-#### modifying keyboards
-```sh
-sudo gedit /usr/share/X11/xkb/symbols/ru
-```
-replace the entire file with [this](https://hastebin.com/zaromemexi.properties)
-```sh
-sudo gedit /usr/share/X11/xkb/symbols/gr
-```
-replace the entire file with [this](https://hastebin.com/wezifufexa.properties)
-
-#### modifying compose file:
-```sh
-sudo gedit ~/.XCompose
-```
-add [this](https://hastebin.com/averadetub.xml)
-
-then restart your computer (i dont think there is any other way to update the .XCompose file)
