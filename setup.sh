@@ -1,6 +1,9 @@
 # Update everything first
 sudo apt-get update
 
+# Bitwarden
+sudo snap install bitwarden
+
 # Custom keyboards
 sudo apt-get install curl
 cd ~/Downloads
@@ -12,7 +15,7 @@ sudo cp ~/Downloads/gr /usr/share/X11/xkb/symbols/gr
 sudo cp ~/Downloads/ru /usr/share/X11/xkb/symbols/ru
 
 # Adding to XCompose file
-sudo touch ~/.XCompose
+touch ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_ie> : \"э\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_IE> : \"Э\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_ze> : \"ж\"" >> ~/.XCompose
@@ -76,6 +79,9 @@ sudo apt-get install deluge
 
 # Calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+# Simplenote
+sudo snap install simplenote
 
 # LWT
 sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server wget
