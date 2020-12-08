@@ -15,8 +15,7 @@ sudo snap install bitwarden
 ```
 tar xjf ~/Downloads/anki-2.1.35-linux-amd64.tar.bz2
 cd anki-2.1.35-linux-amd64
-sudo apt-get install make
-sudo apt-get install libxcb-xinerama0
+sudo apt-get install make libxcb-xinerama0 mpv lame
 sudo make install
 ```
 
@@ -56,7 +55,7 @@ sudo chmod a+wr /usr/share/spotify
 sudo chmod a+wr /usr/share/spotify/Apps -R
 curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
 ```
-make `spicetify` command work:
+#### make commands work:
 * add an alias:
 ```sh
 sudo gedit ~/.bash_aliases
@@ -65,6 +64,9 @@ add the following:
 ```
 alias spicetify='spicetify-cli/spicetify'
 ```
+#### add themes
+download from [here](https://github.com/morpheusthewhite/spicetify-themes)
+extract all folders to `spicetify-cli/Themes`
 
 ### custom keyboard layouts
 
@@ -89,3 +91,5 @@ replace the entire file with [this](https://hastebin.com/wezifufexa.properties)
 sudo gedit ~/.XCompose
 ```
 add [this](https://hastebin.com/averadetub.xml)
+
+then restart your computer (i dont think there is any other way to update the .XCompose file)
