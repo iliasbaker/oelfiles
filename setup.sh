@@ -74,6 +74,9 @@ sudo apt-get install gimp
 # Deluge (torrent client)
 sudo apt-get install deluge
 
+# Calibre
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
 # LWT
 sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server wget
 cd ~/Downloads
