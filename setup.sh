@@ -140,6 +140,9 @@ EOF
 sudo service apache2 restart
 sudo service mysql restart
 
+# Dbeaver
+# sudo snap install dbeaver-ce
+
 # Gnome online accounts
 echo "All done (almost)! Sign in, and restart your computer"
 gnome-control-center online-accounts
