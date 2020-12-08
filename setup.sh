@@ -45,7 +45,7 @@ sudo apt-get install synaptic
 
 # Text editors
 sudo apt-get install atom
-sudo snap install brackets --classic
+#sudo snap install brackets --classic
 
 # Coding stuff: atom and codelite
 sudo apt-get install g++ codelite cmake
@@ -86,8 +86,15 @@ sudo apt-get install deluge
 # Calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
+# Note-taking apps
+
+# Boost Note
+cd ~/Downloads
+wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb
+sudo dpkg -i ./boost-note-linux.deb
+
 # Simplenote
-sudo snap install simplenote
+#sudo snap install simplenote
 
 # LWT
 sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server wget
