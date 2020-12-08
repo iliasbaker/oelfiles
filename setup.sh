@@ -37,11 +37,27 @@ sudo grub-mkfont --size=36 -o /boot/grub/DejaVuSansMono.pf2 /usr/share/fonts/tru
 echo "GRUB_FONT=/boot/grub/DejaVuSansMono.pf2" >> /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-# Nextcloud
-sudo apt-get install nextcloud-desktop
-
 # Synaptic package manager
 sudo apt-get install synaptic
+
+# Nextcloud
+# sudo apt-get install nextcloud-desktop
+
+# Note-taking apps
+
+# Boost Note
+# cd ~/Downloads
+# wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb
+# sudo dpkg -i ./boost-note-linux.deb
+
+# Simplenote
+# sudo snap install simplenote
+
+# Joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
+# Todoist
+sudo snap install todoist
 
 # Text editors
 
@@ -98,19 +114,6 @@ sudo apt-get install deluge
 # Calibre
 cd
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-
-# Note-taking apps
-
-# Boost Note
-# cd ~/Downloads
-# wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb
-# sudo dpkg -i ./boost-note-linux.deb
-
-# Simplenote
-# sudo snap install simplenote
-
-# Joplin
-wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
 # Gparted
 sudo apt-get install gparted
