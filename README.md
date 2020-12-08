@@ -1,14 +1,39 @@
 # oelfiles
 
-## essential
+### before you do anything:
+```sh
+sudo apt-get update
+```
+### bitwarden:
+```sh
+sudo snap install bitwarden
+```
+### anki:
+* download it [here](https://apps.ankiweb.net/)
+```
+tar xjf ~/Downloads/anki-2.1.35-linux-amd64.tar.bz2
+cd anki-2.1.35-linux-amd64
+sudo apt-get install make
+sudo apt-get install libxcb-xinerama0
+sudo make install
+```
+#### add-ons:
+essentials:
+```
+923360400 594329229 1988760596 817108664 266436365 323586997 516643804
+```
+ankimote and anki zoom:
+```
+538879081 149004221
+```
+review heatmap:
+* [click here](https://github.com/Glutanimate/review-heatmap)
 
-### bitwarden
-[download](https://bitwarden.com/download/)
 
-### nextcloud
-privacy-oriented and free cloud server
-
-[download](https://nextcloud.com/)
+### nextcloud:
+```sh
+sudo apt-get install nextcloud-desktop
+```
 
 ## productivity
 
@@ -52,7 +77,8 @@ downloading spotify-client:
 ```sh
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install spotify-client
+sudo apt-get update
+sudo apt-get install spotify-client
 ```
 
 setting read/write permissions for spotify
