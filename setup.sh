@@ -136,6 +136,15 @@ cd anki-2.1.35-linux-amd64
 sudo apt-get install make libxcb-xinerama0 mpv lame
 sudo make install
 
+# Installing review heatmap
+cd ~/Downloads
+wget https://github.com/glutanimate/review-heatmap/releases/download/v1.0.0-beta.1/review-heatmap-v1.0.0-beta.1-anki21.ankiaddon
+anki review-heatmap-v1.0.0-beta.1-anki21.ankiaddon
+
+# Installing more add-ons
+echo "Paste the following into Anki -> Add-ons -> Get add-ons, then close Anki to continue"
+echo "923360400 594329229 1988760596 817108664 266436365 323586997 516643804 538879081 149004221"
+
 # Gimp
 cd
 sudo apt-get install gimp
@@ -146,7 +155,7 @@ sudo apt-get install deluge
 # Calibre
 cd
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-
+bash
 # Gparted
 sudo apt-get install gparted
 
