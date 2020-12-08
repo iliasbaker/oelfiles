@@ -84,6 +84,7 @@ sudo apt-get install gimp
 sudo apt-get install deluge
 
 # Calibre
+cd
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
 # Note-taking apps
