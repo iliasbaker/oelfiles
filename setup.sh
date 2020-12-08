@@ -131,6 +131,7 @@ sed -i -e 's/$passwd = ""/$passwd = "abcxyz"/g' ~/Downloads/lwt/connect.inc.php
 sudo rm /var/www/html/index.html
 sudo mv ~/Downloads/lwt /var/www/html
 sudo chmod -R a+rw /var/www/html/lwt
+echo "Restart your computer after doing this last thing"
 echo "Copy and paste the following, line by line, into your terminal:"
 echo "sudo mysql"
 echo "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abcxyz';"
