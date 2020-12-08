@@ -56,8 +56,8 @@ echo '<dead_acute> <Armenian_TCHE> : "Ծ"' >> ~/.XCompose
 echo '<dead_acute> <Armenian_vev> : "ւ"' >> ~/.XCompose
 echo '<dead_acute> <Armenian_VEV> : "Ւ"' >> ~/.XCompose
 echo '<dead_acute> <Armenian_vo> : "և"' >> ~/.XCompose
-echo '<dead_acute> <Armenian_HI> : "Յ"' >> ~/.XCompose
-echo '<dead_acute> <Armenian_hi> : "յ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_at> : "յ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_AT> : "Յ"' >> ~/.XCompose
 echo '<dead_acute> <Armenian_dza> : "ջ"' >> ~/.XCompose
 echo '<dead_acute> <Armenian_DZA> : "Ջ"' >> ~/.XCompose
 
