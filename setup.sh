@@ -9,10 +9,13 @@ sudo apt-get install curl
 cd ~/Downloads
 curl -O https://raw.githubusercontent.com/iliasbaker/oelfiles/master/keyboards/ru
 curl -O https://raw.githubusercontent.com/iliasbaker/oelfiles/master/keyboards/gr
+curl -O https://raw.githubusercontent.com/iliasbaker/oelfiles/master/keyboards/am
 sudo cp -r /usr/share/X11/xkb/symbols/gr /usr/share/X11/xkb/symbols/grBACKUP
 sudo cp -r /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ruBACKUP
+sudo cp -r /usr/share/X11/xkb/symbols/am /usr/share/X11/xkb/symbols/amBACKUP
 sudo cp ~/Downloads/gr /usr/share/X11/xkb/symbols/gr
 sudo cp ~/Downloads/ru /usr/share/X11/xkb/symbols/ru
+sudo cp ~/Downloads/am /usr/share/X11/xkb/symbols/am
 
 # Adding to XCompose file
 touch ~/.XCompose
