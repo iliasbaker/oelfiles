@@ -40,6 +40,9 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # Nextcloud
 sudo apt-get install nextcloud-desktop
 
+# Synaptic package manager
+sudo apt-get install synaptic
+
 # Coding stuff: atom and codelite
 sudo apt-get install atom g++ codelite cmake
 
@@ -61,7 +64,6 @@ unzip master.zip
 cp -R spicetify-themes-master Themes
 cp -R Themes ~/spicetify-cli
 sed -i -e 's/SpicetifyDefault/YoutubeDark/g' ~/.config/spicetify/config.ini
-
 
 # Installing Anki
 cd ~/Downloads
