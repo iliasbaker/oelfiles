@@ -63,6 +63,8 @@ sudo snap install todoist
 
 # Atom
 sudo apt-get install atom
+apm install open-in-browser # Installing package(s)
+apm disable wrap-guide # That fucking white line
 
 # Brackets
 # sudo snap install brackets --classic
