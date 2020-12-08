@@ -52,11 +52,11 @@ sudo apt-get install atom
 # sudo snap install brackets --classic
 
 # Sublime text
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt-get install apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
-sudo apt-get install sublime-text
+# wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+# sudo apt-get install apt-transport-https
+# echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+# sudo apt-get update
+# sudo apt-get install sublime-text
 
 # Coding stuff: atom and codelite
 sudo apt-get install g++ codelite cmake
@@ -111,6 +111,9 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 
 # Joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
+# Gparted
+sudo apt-get install gparted
 
 # LWT
 sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server wget
