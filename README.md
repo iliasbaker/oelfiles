@@ -66,7 +66,11 @@ alias spicetify='spicetify-cli/spicetify'
 ```
 #### add themes
 download from [here](https://github.com/morpheusthewhite/spicetify-themes)
+
 extract all folders to `spicetify-cli/Themes`
+
+my themes:
+* [here](/dark-teal)
 
 ### custom keyboard layouts
 
