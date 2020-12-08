@@ -44,8 +44,19 @@ sudo apt-get install nextcloud-desktop
 sudo apt-get install synaptic
 
 # Text editors
+
+# Atom
 sudo apt-get install atom
-#sudo snap install brackets --classic
+
+# Brackets
+# sudo snap install brackets --classic
+
+# Sublime text
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
 
 # Coding stuff: atom and codelite
 sudo apt-get install g++ codelite cmake
@@ -78,6 +89,7 @@ sudo apt-get install make libxcb-xinerama0 mpv lame
 sudo make install
 
 # Gimp
+cd
 sudo apt-get install gimp
 
 # Deluge (torrent client)
@@ -90,12 +102,15 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 # Note-taking apps
 
 # Boost Note
-cd ~/Downloads
-wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb
-sudo dpkg -i ./boost-note-linux.deb
+# cd ~/Downloads
+# wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb
+# sudo dpkg -i ./boost-note-linux.deb
 
 # Simplenote
-#sudo snap install simplenote
+# sudo snap install simplenote
+
+# Joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
 # LWT
 sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server wget
