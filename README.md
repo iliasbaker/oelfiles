@@ -68,3 +68,24 @@ alias spicetify='spicetify-cli/spicetify'
 
 ### custom keyboard layouts
 
+```sh
+cd /usr/share/X11/xkb/symbols
+sudo cp -r gr grBACKUP
+sudo cp -r ru ruBACKUP
+```
+
+#### modifying keyboards
+```sh
+sudo gedit /usr/share/X11/xkb/symbols/ru
+```
+replace the entire file with [this](https://hastebin.com/zaromemexi.properties)
+```sh
+sudo gedit /usr/share/X11/xkb/symbols/gr
+```
+replace the entire file with [this](https://hastebin.com/wezifufexa.properties)
+
+#### modifying compose file:
+```sh
+sudo gedit ~/.XCompose
+```
+add [this](https://hastebin.com/averadetub.xml)
