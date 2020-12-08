@@ -135,6 +135,8 @@ mysql -u root -pabcxyz <<EOF
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abcxyz';
 FLUSH privileges;
 EOF
+sudo service apache2 restart
+sudo service mysql restart
 
 # All done!
 echo "All done! You should now restart your computer"
