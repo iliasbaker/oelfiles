@@ -30,6 +30,33 @@ echo "<dead_diaeresis> <Cyrillic_u> : \"ю\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_U> : \"Ю\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_a> : \"я\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_A> : \"Я\"" >> ~/.XCompose
+echo '<dead_acute> <Armenian_yech> : "է"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_YECH> : "Է"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_tyun> : "թ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_TYUN> : "Թ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_za> : "ժ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_ZA> : "Ժ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_gim> : "ղ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_gim> : "Ղ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_tso> : "ծ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_TSO> : "Ծ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_pe> : "Փ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_PE> : "փ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_ke> : "ք' >> ~/.XCompose
+echo '<dead_acute> <Armenian_KE> : "Ք"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_pe> : "փ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_PE> : "Փ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_re> : "ռ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_RE> : "Ռ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_tche> : "ծ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_TCHE> : "Ծ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_vev> : "ւ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_VEV> : "Ւ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_vo> : "և"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_HI> : "Յ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_hi> : "յ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_dza> : "ջ"' >> ~/.XCompose
+echo '<dead_acute> <Armenian_DZA> : "Ջ"' >> ~/.XCompose
 
 # Customising grub font size
 cd
