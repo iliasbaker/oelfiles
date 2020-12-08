@@ -125,3 +125,31 @@ my themes:
 ```sh
 sudo apt-get install gimp deluge
 ```
+
+### learning with texts:
+* download [here](https://sourceforge.net/projects/learning-with-texts/files/learning_with_texts_2_0_1_complete.zip/download)
+```sh
+sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server
+```
+set mysql root password:
+```sh
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abcxyz';
+FLUSH privileges;
+QUIT;
+```
+unzip and install lwt zip:
+```
+unzip ~/Downloads/learning_with_texts_2_0_1_complete.zip -d ~/Downloads/lwt_step
+unzip ~/Downloads/lwt_step/lwt_v_2_0_1.zip -d ~/Downloads/lwt
+cp ~/Downloads/lwt/connect.xampp.inc.php ~/Downloads/lwt/connect.inc.php
+gedit ~/Downloads/lwt/connect.inc.php
+```
+change `$passwd = "";` to `$passwd = "abcxyz";`
+```sh
+sudo rm /var/www/html/index.html
+sudo mv ~/Downloads/lwt /var/www/html
+sudo chmod -R a+rw /var/www/html/lwt
+sudo service apache2 restart
+sudo service mysql restart
+xdg-open https://localhost/lwt
+```
