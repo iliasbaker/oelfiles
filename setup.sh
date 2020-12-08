@@ -128,6 +128,15 @@ cp -R spicetify-themes-master Themes
 cp -R Themes ~/spicetify-cli
 sed -i -e 's/SpicetifyDefault/YoutubeDark/g' ~/.config/spicetify/config.ini
 
+# My personal theme
+cd ~/Downloads
+mkdir dark-teal
+cd dark-teal
+wget https://raw.githubusercontent.com/iliasbaker/oelfiles/main/dark-teal/color.ini
+wget https://raw.githubusercontent.com/iliasbaker/oelfiles/main/dark-teal/user.css
+cd ~/Downloads
+cp -R dark-teal ~/spicetify-cli/Themes
+
 # Installing Anki
 cd ~/Downloads
 wget https://github.com/ankitects/anki/releases/download/2.1.35/anki-2.1.35-linux-amd64.tar.bz2
