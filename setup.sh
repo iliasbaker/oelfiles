@@ -43,8 +43,12 @@ sudo apt-get install nextcloud-desktop
 # Synaptic package manager
 sudo apt-get install synaptic
 
+# Text editors
+sudo apt-get install atom
+sudo snap install brackets --classic
+
 # Coding stuff: atom and codelite
-sudo apt-get install atom g++ codelite cmake
+sudo apt-get install g++ codelite cmake
 
 # Spotify and spicetify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
