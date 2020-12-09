@@ -151,8 +151,8 @@ wget https://github.com/glutanimate/review-heatmap/releases/download/v1.0.0-beta
 anki review-heatmap-v1.0.0-beta.1-anki21.ankiaddon
 
 # Installing more add-ons
-echo "Paste the following into Anki -> Add-ons -> Get add-ons, then close Anki to continue"
-echo "923360400 594329229 1988760596 817108664 266436365 323586997 516643804 538879081 149004221"
+echo "Paste the following into Anki -> Add-ons -> Get Add-ons, then close Anki to continue"
+echo "923360400 594329229 1988760596 817108664 266436365 323586997 516643804 538879081 149004221 291119185 1996266159 1046608507"
 
 # Gimp
 cd
