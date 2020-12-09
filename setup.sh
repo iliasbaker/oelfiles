@@ -107,6 +107,7 @@ apm disable wrap-guide # That fucking white line
 # Coding stuff
 sudo apt-get install g++ codelite cmake
 # sudo snap install pycharm-community --classic
+# sudo apt-get install python3-distutils python3-apt
 
 # Spotify and spicetify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
