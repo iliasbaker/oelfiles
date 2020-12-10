@@ -69,7 +69,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo apt-get install synaptic
 
 # Nextcloud
-# sudo apt-get install nextcloud-desktop
+sudo apt-get install nextcloud-desktop
 
 # Note-taking apps
 
